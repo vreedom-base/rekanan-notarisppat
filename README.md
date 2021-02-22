@@ -6,11 +6,11 @@
   <p align="center">
     Website rekanan untuk Notaris PPAT menggunakan voyager.
     <br />
-    <a href="https://github.com/vreedom-base/perpuskita">Lihat Demo</a>
+    <a href="https://vonso.online/rekanan-notarisppat">Lihat Demo</a>
     ·
-    <a href="https://github.com/vreedom-base/perpuskita/issues">Laporkan Kesalahan</a>
+    <a href="https://github.com/vreedom-base/rekanan-notarisppat/issues">Laporkan Kesalahan</a>
     ·
-    <a href="https://github.com/vreedom-base/perpuskita/issues">Ajukan Fitur Baru</a>
+    <a href="https://github.com/vreedom-base/rekanan-notarisppat/issues">Ajukan Fitur Baru</a>
   </p>
 </p>
 

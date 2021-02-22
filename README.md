@@ -57,7 +57,7 @@ Lihat [open issues](https://github.com/vreedom-base/rekanan-notarisppat/issues) 
 
 ## Berkontribusi
 
-Kontribusi adalah yang membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi yang Anda berikan **sangat dihargai **.
+Kontribusi adalah yang membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi yang Anda berikan **sangat dihargai**.
 
 Segera hadir...
 

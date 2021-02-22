@@ -2,12 +2,12 @@
 
 namespace App\Widgets;
 
-use App\City;
+use App\Client;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use TCG\Voyager\Widgets\BaseDimmer;
 
-class CityDimmer extends BaseDimmer
+class ClientDimmer extends BaseDimmer
 {
     /**
      * The configuration array.
@@ -22,18 +22,18 @@ class CityDimmer extends BaseDimmer
      */
     public function run()
     {
-        $count = City::all()->count();
-        $string = "Kabupaten/Kota";
+        $count = Client::all()->count();
+        $string = "Klien";
 
         return view('voyager::dimmer', array_merge($this->config, [
-            'icon'   => 'voyager-location',
+            'icon'   => 'voyager-person',
             'title'  => "{$count} {$string}",
-            'text'   => "Ada " . $count . ' ' . Str::lower($string) . " yang terdaftar. Klik tombol dibawah untuk melihat semua kabupaten/kota.",
+            'text'   => "Kamu mempunyai " . $count . ' ' . Str::lower($string) . " dalam database. Klik tombol dibawah untuk melihat semua klien.",
             'button' => [
-                'text' => "Lihat semua kabupaten/kota",
-                'link' => route('voyager.cities.index'),
+                'text' => "Lihat semua klien",
+                'link' => route('voyager.clients.index'),
             ],
-            'image' => asset('/storage/images/widget-backgrounds/01.jpg'),
+            'image' => asset('/storage/images/widget-backgrounds/02.jpg'),
         ]));
     }
 
@@ -44,6 +44,6 @@ class CityDimmer extends BaseDimmer
      */
     public function shouldBeDisplayed()
     {
-        return Auth::user()->can('browse', new City());
+        return Auth::user()->can('browse', new Client());
     }
 }

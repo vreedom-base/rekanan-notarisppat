@@ -5,7 +5,6 @@ namespace App\Widgets;
 use App\District;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Widgets\BaseDimmer;
 
 class DistrictDimmer extends BaseDimmer
@@ -34,7 +33,7 @@ class DistrictDimmer extends BaseDimmer
                 'text' => "Lihat semua kecamatan",
                 'link' => route('voyager.districts.index'),
             ],
-            'image' => asset('/storage/images/widget-backgrounds/03.jpg'),
+            'image' => asset('/storage/images/widget-backgrounds/02.jpg'),
         ]));
     }
 

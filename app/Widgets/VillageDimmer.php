@@ -5,7 +5,6 @@ namespace App\Widgets;
 use App\Village;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Widgets\BaseDimmer;
 
 class VillageDimmer extends BaseDimmer
